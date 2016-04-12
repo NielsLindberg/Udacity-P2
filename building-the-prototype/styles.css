@@ -1,0 +1,60 @@
+/* add your CSS here */
+
+body {
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+
+figure {
+    padding: 0;
+    margin: 0 0 10px 0;
+    border: none;
+}
+
+figcaption p {
+    font-size: 12px;
+    padding: 5px 0 0 0;
+    margin: 0 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(102, 71, 183);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.no-style {
+    font-style: normal;
+}
+
+.border-grey {
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.shadow {
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.15);
+}
+
+#card {
+    width: 300px;
+    padding: 10px;
+}
+
+#cardinfo {
+    padding: 0 10px 0 10px;
+}
+
+#infolist {
+    list-style-type: none;
+    padding: 0;
+}
